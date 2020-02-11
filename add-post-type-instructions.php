@@ -52,18 +52,13 @@ add_action( 'init', 'apti_load_textdomain', 1 );
 
 /*----------------------------------------------------------------------------*
  * Dashboard and Administrative Functionality
- *----------------------------------------------------------------------------*/
+ *---------------------------------------------------------------------
 
-/*
- *
- * The code below is intended to to give the lightest footprint possible.
+
+ /*
+
+ what up homies
  */
-if ( is_admin() ) {
-
-	require_once( plugin_dir_path( __FILE__ ) . 'admin/class-add-post-type-instructions-admin.php' );
-	add_action( 'plugins_loaded', array( 'Add_Post_Type_Instructions_Admin', 'get_instance' ) );
-
-}
 
 hello hello hello hello hello hello hello
 
