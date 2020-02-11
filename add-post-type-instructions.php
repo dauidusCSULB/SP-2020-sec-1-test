@@ -5,7 +5,7 @@
  * For A Better UX
  *
  * @package   Add_Post_Type_Instructions
- * @author    Dave Winter, Neal Terrell
+ * @author    Dave Winter
  * @license   GPL-2.0+
  * @link      https://dauid.us
  * @copyright 2014-2018 dauid.us
@@ -42,14 +42,14 @@ require_once( plugin_dir_path( __FILE__ ) . 'public/class-add-post-type-instruct
 register_activation_hook( __FILE__, array( 'Add_Post_Type_Instructions', 'activate' ) );
 register_deactivation_hook( __FILE__, array( 'Add_Post_Type_Instructions', 'deactivate' ) );
 
-//add_action( 'plugins_loaded', array( 'Add_Post_Type_Instructions', 'get_instance' ) );
+add_action( 'plugins_loaded', array( 'Add_Post_Type_Instructions', 'get_instance' ) );
 
 
 /*
  * Custom action to let other plugins start after this one is loaded
  *
  */
-//do_action( 'APTI_loaded', plugin_dir_path( __FILE__ ) );
+do_action( 'APTI_loaded', plugin_dir_path( __FILE__ ) );
 
 /**
  * Load translations
