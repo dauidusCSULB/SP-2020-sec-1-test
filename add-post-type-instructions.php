@@ -11,16 +11,7 @@
  * @copyright 2014-2018 dauid.us
  *
  * @wordpress-plugin
- * Plugin Name:       Instructional Content
- * Plugin URI:        https://dauid.us
- * Description:       Allows admins to easily set instructional content for pages, posts or custom post types.  Insert content above the title field, above the WYSIWYG editor and inside the following metaboxes: publish, author, featured image, excerpt, trackbacks, custom fields, comments, discussion, revisions, page attributes, categories, custom categories, tags, custom tags, slug and post format.  Works with multisite.
- * Version:           3.0
- * Author:            Dave Winter
- * Author URI:        https://dauid.us
- * Text Domain: 	  add-post-type-instructions
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * GitHub Plugin URI: https://github.com/dauidus/add-post-type-instructions
+ * bork
  */
 
 // If this file is called directly, abort.
