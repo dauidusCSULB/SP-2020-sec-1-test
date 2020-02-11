@@ -1,0 +1,42 @@
+Class Rational
+{
+	int num;
+	int den;
+	
+	public Rational(){
+	num =! 0;
+	den = 1;		
+
+	}
+
+	public Rational(int num, int den){
+	
+
+	}
+	
+
+	//Accessors
+	// int getNumber()
+	// int getDenominator()
+
+	//Modifiers
+	//void setNumber(int n);
+	//void setDenominator(int d);
+
+	//Input a Rational from a keyboard
+	//input numerator and denominator
+	// void inputRational
+	// toString to display a Rational object
+	// Format:	num/denominator
+
+	//	private int greatestCommonDenominator;
+	//	add two Rational numbers
+
+	public void add(Rational r1, Rational r2){
+	
+
+	}
+	
+	//Note: From the main method 
+	//	R3, R1(1,2), R2(3,5) 
+}
