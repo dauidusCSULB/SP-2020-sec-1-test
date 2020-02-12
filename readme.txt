@@ -1,5 +1,5 @@
 === Add Post Type Instructions ===
-Contributors: dauidus
+Contributors: dauidus, Schlitzohr101
 Author URI: http://dauid.us
 Tags: instructions, instruction, directions, assistive, post types, help, wysiwyg, client, text, editor, settings
 Requires at least: 3.5
